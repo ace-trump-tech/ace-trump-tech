@@ -10,12 +10,6 @@
 
 </div>
 
----
-
-> **NJUPT** · 嵌入式系统 → AI 研究 · 维护 4 个知识库（650+ 篇论文 · 87+ 深度综述）
->
-> 知识库覆盖：🚗 端到端自动驾驶 · 🤖 具身智能 · 🚁 UAV Gaussian World Model · 🔬 科研工具
-
 <div align="center">
 
 ### 🌐 [项目导航站](https://ace-trump-tech.github.io/ace-trump-tech/) · [知识库主页](https://github.com/ace-trump-tech/knowledge-bases) · [GitHub 主页](https://github.com/ace-trump-tech)
