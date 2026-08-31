@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ace-trump-tech · 项目导航</title>
+<meta name="description" content="摆烂仙君 GitHub 项目导航 — AI 知识库 · 硬件机器人 · 工具集 · 游戏">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<style>
+:root {
+  --bg: #0d1117;
+  --bg-2: #010409;
+  --bg-3: #161b22;
+  --fg: #c9d1d9;
+  --fg-muted: #6e7681;
+  --cyan: #00ffff;
+  --magenta: #ff00ff;
+  --green: #39ff14;
+  --blue: #58a6ff;
+  --orange: #ffa657;
+  --yellow: #f0db4f;
+  --pink: #ff69b4;
+  --border: #30363d;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse at top left, rgba(0,255,255,0.04), transparent 40%),
+    radial-gradient(ellipse at bottom right, rgba(255,0,255,0.04), transparent 40%);
+}
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+/* ───── HERO ───── */
+.hero { text-align: center; margin-bottom: 3rem; }
+.hero .emoji { font-size: 4rem; margin-bottom: 1rem; }
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, var(--pink), var(--cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.3rem;
+}
+.hero .sub { color: var(--fg-muted); font-size: 1rem; margin-bottom: 1.5rem; }
+.hero .poem {
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  line-height: 1.8;
+}
+.hero .poem em { color: var(--pink); font-style: normal; }
+
+.badges { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin: 1rem 0; }
+.badge {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid;
+  transition: all 0.2s;
+}
+.badge:hover { transform: translateY(-2px); box-shadow: 0 4px 14px currentColor; }
+.badge.followers { color: var(--pink); border-color: var(--pink); background: rgba(255,105,180,0.08); }
+.badge.stars { color: var(--yellow); border-color: var(--yellow); background: rgba(240,219,79,0.08); }
+.badge.repos { color: var(--cyan); border-color: var(--cyan); background: rgba(0,255,255,0.08); }
+.badge.profile { color: var(--blue); border-color: var(--blue); background: rgba(88,166,255,0.08); }
+.badge span { color: inherit; }
+.badge a { color: inherit; text-decoration: none; }
+
+/* ───── SECTION ───── */
+.section { margin: 3rem 0; }
+.section-head {
+  display: flex; align-items: center; gap: 0.6rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.section-head .icon { font-size: 1.2rem; }
+.section-head h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--cyan);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.section-head .count {
+  font-size: 0.7rem;
+  color: var(--fg-muted);
+  margin-left: auto;
+}
+
+/* ───── CARDS ───── */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+
+.card {
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: var(--fg);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--accent);
+}
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.card .top { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
+.card .icon { font-size: 1.6rem; }
+.card .name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent);
+}
+.card .stats {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+}
+.card .stats .star { color: var(--yellow); }
+
+.card .desc {
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+  line-height: 1.5;
+  flex-grow: 1;
+  margin-bottom: 0.75rem;
+}
+
+.card .tags {
+  display: flex; flex-wrap: wrap; gap: 0.3rem;
+  font-size: 0.72rem;
+}
+.card .tag {
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.06);
+  color: var(--fg-muted);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.card .tag.hot { background: rgba(255,105,180,0.12); color: var(--pink); border-color: rgba(255,105,180,0.3); }
+.card .tag.important { background: rgba(0,255,255,0.12); color: var(--cyan); border-color: rgba(0,255,255,0.3); }
+
+/* ───── STATS ROW ───── */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+.stat-box {
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.stat-box::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: var(--accent);
+  margin: -1rem -1rem 0.75rem;
+  border-radius: 8px 8px 0 0;
+}
+.stat-box .num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+.stat-box .label { font-size: 0.7rem; color: var(--fg-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* ───── FOOTER ───── */
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+}
+footer .poem {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .hero h1 { font-size: 2rem; }
+  .grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- HERO -->
+<section class="hero">
+<div class="emoji">⚡</div>
+<h1>ace-trump-tech</h1>
+<p class="sub">NJUPT · 嵌入式系统 → AI 研究 · 知识库构建者</p>
+<div class="badges">
+  <a href="https://github.com/ace-trump-tech" class="badge followers"><span>👥</span> Followers</a>
+  <a href="https://github.com/ace-trump-tech?tab=repositories" class="badge stars"><span>⭐</span> Stars</a>
+  <a href="https://github.com/ace-trump-tech?tab=repositories" class="badge repos"><span>📁</span> Repos</a>
+  <a href="https://github.com/ace-trump-tech/ace-trump-tech" class="badge profile"><span>📄</span> Profile</a>
+</div>
+<p class="poem">掌断开源万道玄，俯笑红尘竞争妍。<br>诸君尽可逐名禄，<em>我卧云巅不执鞭</em>。</p>
+</section>
+
+<!-- STATS -->
+<div class="stats-row">
+  <div class="stat-box" style="--accent: var(--pink)"><div class="num">650+</div><div class="label">论文</div></div>
+  <div class="stat-box" style="--accent: var(--cyan)"><div class="num">87+</div><div class="label">深度综述</div></div>
+  <div class="stat-box" style="--accent: var(--green)"><div class="num">23</div><div class="label">仓库</div></div>
+  <div class="stat-box" style="--accent: var(--orange)"><div class="num">2.4k</div><div class="label">⭐ Stars</div></div>
+</div>
+
+<!-- KNOWLEDGE BASES -->
+<section class="section">
+<div class="section-head">
+  <span class="icon">📚</span>
+  <h2>knowledge bases</h2>
+  <span class="count">4 repositories</span>
+</div>
+
+<div class="grid">
+
+<a href="https://github.com/ace-trump-tech/driver-kb" class="card" style="--accent: var(--cyan)">
+  <div class="top"><span class="icon">🚗</span><span class="name">driver-kb</span><span class="stats">311 papers</span></div>
+  <div class="desc">端到端自动驾驶 KB V2 · UniAD / GAIA-1 / Think2Drive / GPT-Driver / DiffusionDrive · 含 50 篇深度综述 + 4 个 Claude Skills</div>
+  <div class="tags"><span class="tag important">⭐ 热门</span><span class="tag">2017-2026</span><span class="tag">8 子主题</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/embodied-ai-kb" class="card" style="--accent: var(--magenta)">
+  <div class="top"><span class="icon">🤖</span><span class="name">embodied-ai-kb</span><span class="stats">122 papers</span></div>
+  <div class="desc">具身智能 KB · VLA / Manipulation / Humanoid / World Models / Navigation / Datasets · 含 22 篇深度综述 + 10 子主题路线图</div>
+  <div class="tags"><span class="tag">2018-2026</span><span class="tag">10 子主题</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/uav-gwm-kb" class="card" style="--accent: var(--green)">
+  <div class="top"><span class="icon">🚁</span><span class="name">uav-gwm-kb</span><span class="stats">110 papers</span></div>
+  <div class="desc">UAV Gaussian World Model KB · Gaussian World Model / 3DGS / 主动感知 / VLN · 含 15 篇深度综述 + 创新 proposal</div>
+  <div class="tags"><span class="tag">2018-2026</span><span class="tag">6 子主题</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/research-skills" class="card" style="--accent: var(--orange)">
+  <div class="top"><span class="icon">🔬</span><span class="name">research-skills</span><span class="stats">107 tools</span></div>
+  <div class="desc">科研工具 KB · Claude Code Skills / 学术数据库 / AI 研究助手 / Zotero / Obsidian · 含 5 个横向对比 + 4 个推荐工作流</div>
+  <div class="tags"><span class="tag">2023-2026</span><span class="tag">10 类别</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/knowledge-bases" class="card" style="--accent: var(--pink)">
+  <div class="top"><span class="icon">🌐</span><span class="name">knowledge-bases</span><span class="stats">主页</div>
+  <div class="desc">4 个知识库统一入口 · 暗黑科技风 GitHub Pages · 项目卡片导航</div>
+  <div class="tags"><span class="tag">GitHub Pages</span></div>
+</a>
+
+</div>
+</section>
+
+<!-- TOP PROJECTS -->
+<section class="section">
+<div class="section-head">
+  <span class="icon">🏆</span>
+  <h2>top projects</h2>
+  <span class="count">most starred</span>
+</div>
+
+<div class="grid">
+
+<a href="https://github.com/ace-trump-tech/MindPaw" class="card" style="--accent: var(--yellow)">
+  <div class="top"><span class="icon">🐕</span><span class="name">MindPaw</span><span class="stats"><span class="star">⭐</span> 2.5k</span></div>
+  <div class="desc">基于 ESP8266 的开源桌面四足机器狗 · 语音交互 (HLK-V20) · 手势识别 (OV2640) · 网页遥控 · 豆包 AI 对话 · PAD 情感交互 · 可选 AI Infra 网关</div>
+  <div class="tags"><span class="tag hot">🔥 爆火</span><span class="tag">C++</span><span class="tag">嵌入式</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/DeltaForce-OBS-Locker" class="card" style="--accent: var(--yellow)">
+  <div class="top"><span class="icon">🎯</span><span class="name">DeltaForce-OBS-Locker</span><span class="stats"><span class="star">⭐</span> 745</span></div>
+  <div class="desc">三角洲行动 OBS 锁头插件 · 电脑端&手机端 · OBS 渲染注入 · QQ 音乐/网易云联精准骨骼识别 · 平滑自瞄 · 稳定过检</div>
+  <div class="tags"><span class="tag hot">🔥 现象级</span><span class="tag">Python</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/Paper-Harness" class="card" style="--accent: var(--cyan)">
+  <div class="top"><span class="icon">📜</span><span class="name">Paper-Harness</span><span class="stats"><span class="star">⭐</span> 111</span></div>
+  <div class="desc">可审计、可复现、可恢复的多 Agent 研究工作台 · 产出论文初稿 + 研究代码 + 实验记录 · 通用版 + 专业版 · CV / 电网控制 / 本科毕设</div>
+  <div class="tags"><span class="tag important">🎓 学术</span><span class="tag">Python</span><span class="tag">Multi-Agent</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/Wifi-killer" class="card" style="--accent: var(--green)">
+  <div class="top"><span class="icon">📡</span><span class="name">Wifi-killer</span><span class="stats"><span class="star">⭐</span> 30</span></div>
+  <div class="desc">WIFI 杀手 · 基于 Arduino 单片机 · 2.4GHz 网络屏蔽 · 部分 5GHz 网络适用</div>
+  <div class="tags"><span class="tag">C</span><span class="tag">嵌入式</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/html-lab" class="card" style="--accent: var(--blue)">
+  <div class="top"><span class="icon">🧰</span><span class="name">html-lab</span><span class="stats">5</span></div>
+  <div class="desc">轻量在线工具集 · Base64 编码/解码 · 纯前端本地运行 · 零数据收集 · 即将上线 JSON 格式化 / 二维码生成等</div>
+  <div class="tags"><span class="tag">HTML</span><span class="tag">工具</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/template.github.io" class="card" style="--accent: var(--magenta)">
+  <div class="top"><span class="icon">🎓</span><span class="name">template.github.io</span><span class="stats"><span class="star">⭐</span> 25</span></div>
+  <div class="desc">个人学术主页模板 · GitHub Pages 开箱即用 · 适合研究生/博士后/青年学者展示论文、演讲、教学和简历</div>
+  <div class="tags"><span class="tag important">🎓 学术</span><span class="tag">模板</span></div>
+</a>
+
+</div>
+</section>
+
+<!-- OTHER -->
+<section class="section">
+<div class="section-head">
+  <span class="icon">🔧</span>
+  <h2>other projects</h2>
+</div>
+
+<div class="grid">
+
+<a href="https://github.com/ace-trump-tech/RocoKingdom_AutoCapture" class="card" style="--accent: var(--pink)">
+  <div class="top"><span class="icon">🎮</span><span class="name">RocoKingdom_AutoCapture</span></div>
+  <div class="desc">洛克王国 S2 赛季异色精灵全自动捕捉系统 · 基于 YOLOv8 实时识别 · 卡尔曼滤波动态追踪</div>
+  <div class="tags"><span class="tag">Python</span><span class="tag">YOLO</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/genshin-skip-animation" class="card" style="--accent: var(--orange)">
+  <div class="top"><span class="icon">🎮</span><span class="name">genshin-skip-animation</span></div>
+  <div class="desc">原神过场动画/对话/加载界面自动跳过 · 计算机视觉模板匹配 · 不读取/修改游戏内存</div>
+  <div class="tags"><span class="tag">Python</span><span class="tag">游戏辅助</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/AI-Gomoku-with-Prohibition-Moves" class="card" style="--accent: var(--blue)">
+  <div class="top"><span class="icon">♟️</span><span class="name">AI-Gomoku</span></div>
+  <div class="desc">含禁手的 AI 五子棋 · 纯 Python 实现 · 简单易部署 · 无预训练模型</div>
+  <div class="tags"><span class="tag">Python</span><span class="tag">游戏 AI</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/Chatbot" class="card" style="--accent: var(--pink)">
+  <div class="top"><span class="icon">🤖</span><span class="name">Chatbot</span></div>
+  <div class="desc">多平台 AI 聊天机器人 · QQ / 微信 / 飞书 / Telegram · 豆包 / OpenAI / Claude 集成</div>
+  <div class="tags"><span class="tag">Python</span><span class="tag">Chatbot</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/NJUPT-Graduation-thesis" class="card" style="--accent: var(--orange)">
+  <div class="top"><span class="icon">🎓</span><span class="name">NJUPT-Graduation-thesis</span><span class="stats"><span class="star">⭐</span> 25</span></div>
+  <div class="desc">南京邮电大学毕业论文模板 · 能毕业就行</div>
+  <div class="tags"><span class="tag">LaTeX</span><span class="tag">模板</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/Two-Wheel-RC-Smart-Car" class="card" style="--accent: var(--cyan)">
+  <div class="top"><span class="icon">🚗</span><span class="name">Two-Wheel-RC-Smart-Car</span></div>
+  <div class="desc">两轮遥控智能车 · 原理图 + PCB 设计图 + 焊接教程</div>
+  <div class="tags"><span class="tag">硬件</span><span class="tag">Arduino</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/clash_for_linux" class="card" style="--accent: var(--green)">
+  <div class="top"><span class="icon">🌐</span><span class="name">clash_for_linux</span></div>
+  <div class="desc">Clash Premium Linux 一键安装包 + 配置模板</div>
+  <div class="tags"><span class="tag">Shell</span><span class="tag">工具</span></div>
+</a>
+
+<a href="https://github.com/ace-trump-tech/Star-wars-game" class="card" style="--accent: var(--yellow)">
+  <div class="top"><span class="icon">🎮</span><span class="name">Star-wars-game</span></div>
+  <div class="desc">星球大战游戏机 · Arduino 开发板 · PCB 设计图 + 连线图</div>
+  <div class="tags"><span class="tag">Arduino</span><span class="tag">嵌入式游戏</span></div>
+</a>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p class="poem">莫愁前路无知己，天下谁人不识君。</p>
+<p>ace-trump-tech · MIT License · Built with <a href="https://claude.com/claude-code">Claude Code</a> · 2026</p>
+</footer>
+
+</div>
+</body>
+</html>
