@@ -25,21 +25,12 @@
 ---
 
 <div align="center">
-
-### 📚 Knowledge Bases
-
-| 项目 | 简介 | ⭐ |
-|:---:|:---:|:---:|
-| 🌐 **[knowledge-bases](https://github.com/ace-trump-tech/knowledge-bases)** | 4 个知识库统一入口 · 暗黑科技风 GitHub Pages | — |
-| 🚗 **[driver-kb](https://github.com/ace-trump-tech/driver-kb)** | 端到端自动驾驶 · 311 篇论文 · 50 篇深度综述 | — |
-| 🤖 **[embodied-ai-kb](https://github.com/ace-trump-tech/embodied-ai-kb)** | 具身智能 · 122 篇论文 · 22 篇深度综述 | — |
-| 🚁 **[uav-gwm-kb](https://github.com/ace-trump-tech/uav-gwm-kb)** | UAV Gaussian World Model · 110 篇 · 15 篇深度 | — |
-| 🔬 **[research-skills](https://github.com/ace-trump-tech/research-skills)** | 科研工具 KB · 107 工具 · 10 类别 | — |
-
+  
 ### 🏆 Featured Projects
 
 | 项目 | 简介 | ⭐ |
 |:---:|:---:|:---:|
+| 🌐 **[knowledge-bases](https://github.com/ace-trump-tech/knowledge-bases)** | 4 个知识库统一入口 · 暗黑科技风 GitHub Pages | — |
 | 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | 2.5k |
 | 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | 747 |
 | 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | 111 |
