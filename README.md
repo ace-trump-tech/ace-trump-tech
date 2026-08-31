@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=4000&pause=800&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=120&lines=NJUPT+%E2%9D%A4+Embedded+Systems+%E2%86%92+AI+Research;%E6%8E%8C%E6%96%B7C%E7%A7%91%E6%8A%80+%C2%B7+%E6%9C%89%E7%82%B9%E6%87%B5%E6%80%81%E7%9A%84+AI+%E7%A0%94%E7%A9%B6%E5%91%98" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&duration=3500&pause=600&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=false&width=860&height=100&lines=NJUPT+%E2%9D%A4+Embedded+Systems+%E2%86%92+AI+Research" alt="Typing SVG" />
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/ace-trump-tech?label=Followers&style=flat-square&color=FF69B4&logo=github)](https://github.com/ace-trump-tech)
-[![Stars](https://img.shields.io/github/stars/ace-trump-tech?label=Total+Stars&style=flat-square&color=FFD700&logo=star)](https://github.com/ace-trump-tech?tab=repositories)
-[![Profile views](https://komarev.com/ghpvc/?username=ace-trump-tech&style=flat-square&color=blueviolet)](https://github.com/ace-trump-tech)
+[![GitHub followers](https://img.shields.io/github/followers/ace-trump-tech?label=Followers&style=for-the-badge&color=FF69B4&logo=github)](https://github.com/ace-trump-tech)
+[![GitHub stars](https://img.shields.io/github/stars/ace-trump-tech?label=Stars&style=for-the-badge&color=FFD700&logo=github)](https://github.com/ace-trump-tech?tab=repositories)
+[![GitHub repos](https://img.shields.io/github/repo-count/ace-trump-tech?label=Repos&style=for-the-badge&color=00FFFF&logo=github)](https://github.com/ace-trump-tech?tab=repositories)
 
 </div>
 
@@ -16,9 +16,18 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ace-trump-tech&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF69B4&text_color=C9D1D9&icon_color=00FFFF" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ace-trump-tech&theme=tokyonight&hide_border=true&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=C9D1D9" alt="Top Langs" />
-<img height="170" src="https://github-readme-streak-stats.demolab.com?user=ace-trump-tech&theme=tokyonight&hide_border=true&background=0D1117&ring=FF69B4&fire=FFD700&currStreakLabel=00FFFF" alt="Streak" />
+<!-- 用 shields.io 端点，稳定可靠，国内可用 -->
+![Repos](https://img.shields.io/github/repo-count/ace-trump-tech?style=for-the-badge&color=58A6FF&logo=github&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ace-trump-tech?style=for-the-badge&color=FFD700&logo=star&logoColor=black)
+![Forks](https://img.shields.io/github/forks/ace-trump-tech?style=for-the-badge&color=58A6FF&logo=git&logoColor=white)
+![Commits](https://img.shields.io/github/commit-activity/y/ace-trump-tech?style=for-the-badge&color=39FF14&logo=git&logoColor=black)
+![Last Commit](https://img.shields.io/github/last-commit/ace-trump-tech?style=for-the-badge&color=FF69B4&logo=git&logoColor=white)
+
+<br/>
+
+![Top Language](https://img.shields.io/github/languages/top/ace-trump-tech?style=for-the-badge&color=3776AB&logo=python&logoColor=white)
+![License](https://img.shields.io/github/license/ace-trump-tech?style=for-the-badge&color=00FFFF)
+![Profile views](https://komarev.com/ghpvc/?username=ace-trump-tech&style=for-the-badge&color=blueviolet)
 
 </div>
 
