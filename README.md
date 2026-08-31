@@ -25,9 +25,9 @@
 | 项目 | 简介 | ⭐ |
 |:---:|:---:|:---:|
 | 🌐 **[knowledge-bases](https://ace-trump-tech.github.io/knowledge-bases/)** | 4 个知识库（智驾/具身/4d/skills）统一入口 GitHub Pages | — |
-| 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | 2.5k |
-| 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | 747 |
-| 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | 111 |
+| 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/MindPaw?style=flat-square&color=FFD700&logo=github) |
+| 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/DeltaForce-OBS-Locker?style=flat-square&color=FFD700&logo=github) |
+| 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Paper-Harness?style=flat-square&color=FFD700&logo=github) |
 
 </div>
 
