@@ -30,6 +30,8 @@
 | 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Paper-Harness?style=flat-square&color=FFD700&logo=github) |
 | 🧰 **[html-lab](https://github.com/ace-trump-tech/html-lab)** | 轻量在线工具集 · Base64 编解码 · 纯前端零数据收集 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/html-lab?style=flat-square&color=FFD700&logo=github) |
 | 🎓 **[template.github.io](https://github.com/ace-trump-tech/template.github.io)** | 个人学术主页模板 · GitHub Pages 开箱即用 · 3 分钟部署 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/template.github.io?style=flat-square&color=FFD700&logo=github) |
+| 📡 **[Wifi-killer](https://github.com/ace-trump-tech/Wifi-killer)** | Arduino 2.4GHz 网络屏蔽 · 嵌入式程序 · 部分 5GHz 适用 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Wifi-killer?style=flat-square&color=FFD700&logo=github) |
+| 🤖 **[Chatbot](https://github.com/ace-trump-tech/Chatbot)** | 多平台 AI 聊天机器人 · QQ/微信/飞书/Telegram · 豆包/OpenAI/Claude | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Chatbot?style=flat-square&color=FFD700&logo=github) |
 
 </div>
 
