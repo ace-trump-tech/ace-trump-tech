@@ -28,6 +28,8 @@
 | 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/MindPaw?style=flat-square&color=FFD700&logo=github) |
 | 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/DeltaForce-OBS-Locker?style=flat-square&color=FFD700&logo=github) |
 | 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Paper-Harness?style=flat-square&color=FFD700&logo=github) |
+| 🧰 **[html-lab](https://github.com/ace-trump-tech/html-lab)** | 轻量在线工具集 · Base64 编解码 · 纯前端零数据收集 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/html-lab?style=flat-square&color=FFD700&logo=github) |
+| 🎓 **[template.github.io](https://github.com/ace-trump-tech/template.github.io)** | 个人学术主页模板 · GitHub Pages 开箱即用 · 3 分钟部署 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/template.github.io?style=flat-square&color=FFD700&logo=github) |
 
 </div>
 
