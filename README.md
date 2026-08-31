@@ -12,7 +12,7 @@
 
 <div align="center">
 
-### 🌐 [项目导航站](https://ace-trump-tech.github.io/ace-trump-tech/) · [知识库主页](https://github.com/ace-trump-tech/knowledge-bases) · [GitHub 主页](https://github.com/ace-trump-tech)
+### 🌐 [项目导航站](https://ace-trump-tech.github.io/ace-trump-tech/) · [知识库主页](https://ace-trump-tech.github.io/knowledge-bases/) · [GitHub 主页](https://github.com/ace-trump-tech)
 
 </div>
 
