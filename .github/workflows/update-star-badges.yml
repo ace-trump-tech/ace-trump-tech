@@ -1,0 +1,38 @@
+name: Update repository star badges
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-star-badges
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read counts from GitHub and render local SVG files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_star_badges.py
+      - name: Save changed counts
+        run: |
+          git add assets/stars/*.svg assets/stars/stats.json
+          if git diff --cached --quiet; then
+            echo 'No changed star counts'
+            exit 0
+          fi
+          git config user.name 'ace-trump-tech'
+          git config user.email '187950525+ace-trump-tech@users.noreply.github.com'
+          git commit -m 'chore: refresh repository star counts'
+          git push

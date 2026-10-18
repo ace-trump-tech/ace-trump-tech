@@ -25,13 +25,13 @@
 | 项目 | 简介 | ⭐ |
 |:---:|:---:|:---:|
 | 🌐 **[knowledge-bases](https://github.com/ace-trump-tech/knowledge-bases)** | 4 个知识库（智驾/具身/4d/skills）统一入口 GitHub Pages | — |
-| 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/MindPaw?style=flat-square&color=FFD700&logo=github) |
-| 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/DeltaForce-OBS-Locker?style=flat-square&color=FFD700&logo=github) |
-| 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Paper-Harness?style=flat-square&color=FFD700&logo=github) |
-| 🧰 **[html-lab](https://github.com/ace-trump-tech/html-lab)** | 轻量在线工具集 · Base64 编解码 · 纯前端零数据收集 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/html-lab?style=flat-square&color=FFD700&logo=github) |
-| 🎓 **[template.github.io](https://github.com/ace-trump-tech/template.github.io)** | 个人学术主页模板 · GitHub Pages 开箱即用 · 3 分钟部署 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/template.github.io?style=flat-square&color=FFD700&logo=github) |
-| 📡 **[Wifi-killer](https://github.com/ace-trump-tech/Wifi-killer)** | Arduino 2.4GHz 网络屏蔽 · 嵌入式程序 · 部分 5GHz 适用 | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Wifi-killer?style=flat-square&color=FFD700&logo=github) |
-| 🤖 **[Chatbot](https://github.com/ace-trump-tech/Chatbot)** | 多平台 AI 聊天机器人 · QQ/微信/飞书/Telegram · 豆包/OpenAI/Claude | ![Stars](https://img.shields.io/github/stars/ace-trump-tech/Chatbot?style=flat-square&color=FFD700&logo=github) |
+| 🐕 **[MindPaw](https://github.com/ace-trump-tech/MindPaw)** | ESP8266 桌面级四足机器狗 · 语音 + 手势 + 网页遥控 + 豆包 AI | [![MindPaw stars](assets/stars/MindPaw.svg)](https://github.com/ace-trump-tech/MindPaw/stargazers) |
+| 🎯 **[DeltaForce-OBS-Locker](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker)** | 三角洲行动 OBS 锁头插件 · 精准骨骼识别 · 平滑自瞄 | [![DeltaForce-OBS-Locker stars](assets/stars/DeltaForce-OBS-Locker.svg)](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker/stargazers) |
+| 📜 **[Paper-Harness](https://github.com/ace-trump-tech/Paper-Harness)** | 可审计多 Agent 研究工作台 · 论文初稿 + 研究代码 + 实验记录 | [![Paper-Harness stars](assets/stars/Paper-Harness.svg)](https://github.com/ace-trump-tech/Paper-Harness/stargazers) |
+| 🧰 **[html-lab](https://github.com/ace-trump-tech/html-lab)** | 轻量在线工具集 · Base64 编解码 · 纯前端零数据收集 | [![html-lab stars](assets/stars/html-lab.svg)](https://github.com/ace-trump-tech/html-lab/stargazers) |
+| 🎓 **[template.github.io](https://github.com/ace-trump-tech/template.github.io)** | 个人学术主页模板 · GitHub Pages 开箱即用 · 3 分钟部署 | [![template.github.io stars](assets/stars/template.github.io.svg)](https://github.com/ace-trump-tech/template.github.io/stargazers) |
+| 📡 **[Wifi-killer](https://github.com/ace-trump-tech/Wifi-killer)** | Arduino 2.4GHz 网络屏蔽 · 嵌入式程序 · 部分 5GHz 适用 | [![Wifi-killer stars](assets/stars/Wifi-killer.svg)](https://github.com/ace-trump-tech/Wifi-killer/stargazers) |
+| 🤖 **[Chatbot](https://github.com/ace-trump-tech/Chatbot)** | 多平台 AI 聊天机器人 · QQ/微信/飞书/Telegram · 豆包/OpenAI/Claude | [![Chatbot stars](assets/stars/Chatbot.svg)](https://github.com/ace-trump-tech/Chatbot/stargazers) |
 
 </div>
 
